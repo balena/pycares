@@ -1,0 +1,16 @@
+Source: python-cares
+Section: python
+Priority: optional
+Maintainer: G. B. Versiani <guibv@yahoo.com>
+Build-Depends: python-all (>= 2.6.6-3), debhelper (>= 7)
+Standards-Version: 3.9.5
+Homepage: http://github.com/saghul/pycares
+Vcs-Git: http://github.com/saghul/pycares.git
+X-Python-Version: >= 2.7
+
+Package: python-cares
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
+Description: Interface to c-ares in Python
+ pycares is a Python module which provides an interface to c-ares. c-ares is a
+ C library that performs DNS requests and name resolutions asynchronously.

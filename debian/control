@@ -1,4 +1,4 @@
-Source: python-cares
+Source: python-pycares
 Section: python
 Priority: optional
 Maintainer: G. B. Versiani <guibv@yahoo.com>
@@ -8,7 +8,7 @@ Homepage: http://github.com/saghul/pycares
 Vcs-Git: http://github.com/saghul/pycares.git
 X-Python-Version: >= 2.7
 
-Package: python-cares
+Package: python-pycares
 Architecture: any
 Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
 Description: Interface to c-ares in Python

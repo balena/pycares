@@ -1,4 +1,4 @@
-python-cares (1.0.0) unstable; urgency=medium
+python-pycares (1.0.0) unstable; urgency=medium
 
   * Initial release.
 
